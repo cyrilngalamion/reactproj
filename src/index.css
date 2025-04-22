@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@theme {
+  --color-navBar: #021373;
+  --color-oxBlue: #020F59;
+  --color-cetBlue: #010B40;
+  --color-richBlack: #010626;
+  --color-vistBlue: #8491D9;
+  --color-grBody: #202c37;
+  --color-grNav: #2b3945;
+}
