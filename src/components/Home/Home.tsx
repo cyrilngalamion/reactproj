@@ -86,7 +86,11 @@ export default function Home({ countries, regions, loading }: CountryProps) {
               country.map((cntry) => (
                 <Flag cntry={cntry}/>
               ))
-          ) : countries.map((cntry) => (
+          ) : selectedRegion ? (
+            country.map((cntry) => (
+              <Flag cntry={cntry}/>
+            ))
+        ) : countries.map((cntry) => (
             <Flag cntry={cntry}/>
           ))}
         </div>
@@ -94,5 +98,3 @@ export default function Home({ countries, regions, loading }: CountryProps) {
     </>
   );
 }
-
-//
