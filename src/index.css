@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+=======
+@import 'tailwindcss';
+@theme {
+  --color-navBar: #021373;
+  --color-oxBlue: #020F59;
+  --color-cetBlue: #010B40;
+  --color-richBlack: #010626;
+  --color-vistBlue: #8491D9;
+  --color-grBody: #202c37;
+  --color-grNav: #2b3945;
+>>>>>>> 7b0ed96ed7d0826d50af10729f6b77a7c452bb52
 }
